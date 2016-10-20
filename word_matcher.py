@@ -34,3 +34,15 @@ def run_tests():
 # Edit this code
 def matcher(word1, word2):
 
+    if word1 == word2:
+        print("Exact match")
+
+    elif word1.islower() >= word2.isupper():
+        print("Partial match")
+
+    elif word1.islower() <= word2.isupper():
+        print("Partial match")
+
+    else:
+        print("No match")
+

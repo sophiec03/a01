@@ -35,3 +35,6 @@ def run_tests():
 # Edit this code
 def print_squares(a, b):
 
+    if a == b:
+        print(a*a + a*b + b*b)
+
